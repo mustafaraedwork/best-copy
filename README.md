@@ -4,7 +4,7 @@
 
    If you need help or upgraded version, plz contact here: 
    
-   [Telegram](https://t.me/mooncitydev)
+   [Telegram](https://t.me/sealdevnut)
  
 ## Key Features
 
