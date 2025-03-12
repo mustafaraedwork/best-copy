@@ -4,7 +4,7 @@
 
    If you need help or upgraded version, plz contact here: 
    
-   [Telegram](https://t.me/sealdevnut)
+   [Telegram](https://t.me/sealdev)
  
 ## Key Features
 
