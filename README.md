@@ -1,5 +1,16 @@
+# Copytrading Bot – Open Source Crypto Copy Trader (Solana + EVM)
+
+This is a fully open-source copytrading bot built for crypto traders. Easily mirror trades from whales or specific wallets on Solana and EVM chains in real time.
+
+If you're looking for a GitHub-based copytrading bot, this is your starting point.
+https://www.ironfx.com/wp-content/uploads/2023/04/tradecopier-start-now.gif
 # Pumpfun Copy Trading Sniper Bot with GRPC
 
+"How to use this copytrading bot"
+
+"Crypto copy trading strategy"
+
+"Copy whale trades automatically"
 ## Contact
 
    If you need help or upgraded version, plz contact here: 
