@@ -60,7 +60,7 @@ https://www.ironfx.com/wp-content/uploads/2023/04/tradecopier-start-now.gif
 
      <a href="https://ibb.co/ks51qyxT"><img src="https://i.ibb.co/ks51qyxT/buy-2block.png" alt="buy-2block" border="0"></a> <a href="https://ibb.co/bMtsFKqL"><img src="https://i.ibb.co/bMtsFKqL/mint-2block.png" alt="mint-2block" border="0"></a>
 
-   - Geyser gRPC Pump.fun Sniper Bot (Beta): 
+   - Geyser gRPC Pumpfun Sniper Bot (Beta): 
       
       `https://solscan.io/account/TSLvdd1pWpHVjahSpsvCXUbgwsL3JAcvokwaKt1eokM`
    
