@@ -3,7 +3,7 @@ import {
   SubscribeRequest,
 } from "@triton-one/yellowstone-grpc";
 import Client from "@triton-one/yellowstone-grpc";
-import { logger } from "../../../../utils";
+import { logger } from "../../../helpers/logger";
 const PING_INTERVAL_MS = 100_000;
 export const wsol = "So11111111111111111111111111111111111111112";
 export async function handleSubscribe(

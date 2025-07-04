@@ -8,7 +8,7 @@ import {
   createSubscribeTraderRequest,
 } from "./grpc-requests-type";
 import { handleSubscribe, wsol } from "./utils";
-import { getSPLBalance, retriveWalletState } from "../../../../utils";
+import { getSPLBalance, retriveWalletState } from "../../../helpers/utils";
 import { connection, quoteToken, wallet, GRPC_XTOKEN, GRPC_URL } from "../constants/constants";
 import { sell, buy } from "../raydium";
 let trader_balance_wallet:any = {};

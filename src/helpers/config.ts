@@ -15,7 +15,7 @@ import bs58 from "bs58";
 import path from "path";
 // default path: /Users/{your_user_name}/Desktop/solana-trading-cli/src/helpers/.env
 // please specify your own .env path
-const envPath = path.join(__dirname, ".env");
+const envPath = path.join(__dirname, "../../.env");
 dotenv.config({
   path: envPath, // fill in your .env path
 });

@@ -51,7 +51,12 @@ import {
   let tipAccounts: string[] = [];
   (async () => {
   try {
-      tipAccounts = await c.getTipAccounts();
+      const result = await c.getTipAccounts();
+    if (result && result.ok) {
+      tipAccounts = result.value || [];
+    } else {
+      tipAccounts = [];
+    }
       // console.log('Result:', tipAccounts);
   } catch (error) {
       console.error('Error:', error);

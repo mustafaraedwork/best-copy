@@ -25,7 +25,7 @@ import {
 } from "../constants";
 
 import bs58 from "bs58";
-import { logger } from "../../../../helpers/logger";
+import { logger } from "../../../helpers/logger";
 import { bundle } from "jito-ts";
 const blockEngineUrl = process.env.BLOCK_ENGINE_URL || "";
 logger.info(`BLOCK_ENGINE_URL: ${blockEngineUrl}`);
@@ -49,7 +49,13 @@ export const searcherClientAdv = (
 let tipAccounts: string[] = [];
 (async () => {
   try {
-    tipAccounts = await c.getTipAccounts();
+    const result = await c.getTipAccounts();
+    if (result.ok) {
+      tipAccounts = result.value;
+    } else {
+      console.error('Error getting tip accounts:', result.error);
+      tipAccounts = [];
+    }
     // console.log('Result:', tipAccounts);
   } catch (error) {
     console.error("Error:", error);

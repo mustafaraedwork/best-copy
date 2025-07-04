@@ -2,7 +2,7 @@ import { Raydium } from "@raydium-io/raydium-sdk-v2";
 import { connection, wallet, wsol } from "../constants";
 import { formatAmmKeysById_swap } from "./formatAmmKeys";
 import { PublicKey } from "@solana/web3.js";
-import { logger } from "../../../../utils";
+import { logger } from "../../../helpers/logger";
 
 export const initSdk = async () => {
   const raydium = await Raydium.load({

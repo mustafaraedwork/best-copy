@@ -7,7 +7,7 @@ import {
   createSubscribeTokenRequest,
 } from "./grpc-requests-type";
 import { handleSubscribe } from "./utils";
-import { getSPLBalance, retriveWalletState } from "../../../../utils";
+import { getSPLBalance, retriveWalletState } from "../../../helpers/utils";
 import { GRPC_XTOKEN, GRPC_URL } from "../constants/constants";
 import { token } from "@metaplex-foundation/js";
 let trader_balance_wallet:any = {};

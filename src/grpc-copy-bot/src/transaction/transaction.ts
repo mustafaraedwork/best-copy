@@ -35,13 +35,13 @@ import {
   TOKEN_PROGRAM_ID,
 } from "@solana/spl-token";
 import { TokenInstructions } from "@project-serum/serum";
-import { logger } from "../../../../helpers/logger";
+import { logger } from "../../../helpers/logger";
 import {
   retrieveEnvVariable,
   getKeypairByJsonPath,
   printSOLBalance,
   getSPLBalance,
-} from "../../../../utils";
+} from "../../../helpers/utils";
 import { populateJitoLeaderArray } from "../streaming/stream-trader";
 import { sendBundle } from "../jito/bundle";
 import { AnchorProvider } from "@coral-xyz/anchor";

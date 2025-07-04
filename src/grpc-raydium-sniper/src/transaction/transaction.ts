@@ -39,7 +39,7 @@ import { logger } from "../utils/logger";
 import { MinimalMarketLayoutV3, getMinimalMarketV3 } from "../market";
 import { createPoolKeys, getTokenAccounts } from "../liquidity";
 import { populateJitoLeaderArray } from "../streaming/raydium";
-import { retrieveEnvVariable } from "../utils";
+import { retrieveEnvVariable } from "../../../helpers/utils";
 
 let wallet: Keypair;
 let quoteToken: Token;
